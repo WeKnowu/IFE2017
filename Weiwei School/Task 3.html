@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 3</title>
+</head>
+<!--CSS Flex布局-->
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	padding: 20px;
+	background-color: white;
+}
+body{
+	padding: 20px;
+	background-color: #eee;
+	display: -webkit-flex;  /* Safari */
+	display: flex;
+	align-items: flex-start;
+	border: solid #999;
+	border-width: 2px;
+}
+.box{
+	padding: 20px;
+	border: solid #999;
+	border-width: 2px;
+	background-color: white;
+}
+.blank{
+	padding: 0;
+	width: 20px;
+}
+#name{
+	width: 200px; 
+	-webkit-box-sizing: border-box;   /*当你设置一个元素为 box-sizing: border-box; 时，此元素的内边距和边框不再会增加它的宽度。*/
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#name p{
+	float: right;
+	max-width: 75px;
+}
+#introduction{
+	-webkit-flex: 1;
+            flex: 1;
+}
+#introduction p{
+	padding: 10px;
+	text-indent: 2em;
+}
+#logo{
+	width: 120px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+figure{
+	padding: 0;
+	display: inline-block;
+}
+figure img{
+	padding: 0;
+	width: 80px;
+}
+</style>
+<body>
+	<div class="box" id="name">
+		<figure><img src="pic/nba.png" /></figure>
+		<p>美国职业篮球联赛</p>
+	</div>
+	<div class="blank"></div>
+	<div class="box" id="introduction">
+		<p>NBA是美国男子职业篮球联赛（National Basketball Association）的简称，于1946年6月6日在纽约成立，是由北美三十支队伍组成的男子职业篮球联盟，美国四大职业体育联盟之一。其中诞生了迈克尔·乔丹、科比·布莱恩特、奥拉朱旺、德雷克斯勒、皮蓬、贾巴尔、罗德曼、勒布朗·詹姆斯、蒂姆·邓肯、斯蒂芬·库里、凯文·杜兰特、拉塞尔·威斯布鲁克、詹姆斯·哈登、凯里·欧文等球星，是世界上水平最高的篮球赛事。</p>
+		<p>NBA的三十支球队分属两个联盟：东部联盟和西部联盟，每个联盟由三个赛区组成，每个赛区有五支球队。</p>
+		<p>NBA在每年的赛程开始之前会安排选秀与热身的季前赛；随后是常规赛，从每年的10月底开始，到次年的4月中旬结束；而季后赛（NBA Playoffs）在每年4月下旬开始，在最后决出东西部分区冠军晋级总决赛，七局四胜者为当赛季总冠军，总决赛中表现最优秀的球员获得总决赛MVP荣誉。此外，还有NBA全明星赛（All-star Game）作为一项表演性质的赛事存在，时间不定，为期三天。</p>
+	</div>
+	<div class="blank"></div>
+	<div class="box" id="logo">
+		<figure><img src="pic/nba.png" /></figure>
+		<figure><img src="pic/nba.png" /></figure>
+		<figure><img src="pic/nba.png" /></figure>
+		<figure><img src="pic/nba.png" /></figure>
+		<figure><img src="pic/nba.png" /></figure>
+		<figure><img src="pic/nba.png" /></figure>
+	</div>
+</body>
+</html>
