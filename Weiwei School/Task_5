@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task 5</title>
+</head>
+<style type="text/css">
+body,div,ul,li,p,figure{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-family: "微软雅黑";
+	background: #ccc;
+}
+header nav ul{
+	text-align: right;
+	background: #333 url(pic/nba.png) left 45% no-repeat;
+	background-size: 133px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-origin: content-box;
+}
+header nav li{
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 5px;
+	font-size: 20px;
+}
+header nav li:before{
+	content: "•";
+	font-size: 16px;
+	vertical-align: middle;
+	padding-left: 8px;
+}
+header nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+article header p{
+	font-size: 12px;
+	color: #666;
+	font-weight: 600;
+}
+article p{
+	margin: 16px 0;
+	line-height: 1.5;
+}
+article, body>section{
+	box-shadow: #929292 4px 4px 2px;
+	margin: 15px;
+	padding: 15px;
+	background: white;
+	margin-right: 363px;
+}
+article section p:first-of-type,
+article figure+p{
+	text-indent: 1.6em;
+}
+aside{
+	float: right;
+	border-top: #cdcdcd 1px solid;
+	border-right: #929292 2px solid;
+	border-bottom: #929292 2px solid;
+	border-left: #cdcdcd 1px solid;
+	margin:15px;
+	padding: 15px;
+	background: white;
+}
+aside form{
+	line-height: 32px;
+	font-size: 12px;
+}
+aside form li{
+	list-style: none;
+}
+aside form li.desc{
+	color: #999;
+	padding-left:30%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+aside form label[for]{
+    display:inline-block;
+    width:35%;
+    text-align:right;
+    padding-right:10px;
+}
+aside form button{
+	width: 100%;
+	height: 35px;
+	color: white;
+	background: blue;
+	border: none;
+	border-radius: 8px;
+}
+footer{
+	width: 100%;
+	padding: 20px;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+</style>
+<body>
+	<header>
+		<nav>
+		<ul>
+			<li><a href="https://www.baidu.com">百度一下，你就知道</a></li>
+			<li><a href="https://www.sina.com.cn">新浪网</a></li>
+			<li><a href="http://sports.qq.com/nba/?ptag=baidu.ald.sc.nba">腾讯体育NBA</a></li>
+		</ul>
+		</nav>
+	</header>
+	<aside>
+		<header><h3>这以后是一个侧栏，这是侧栏的标题</h3></header>
+		<form>
+			<ul>
+				<li><label for="mail">请输入邮箱地址</label><input type="mail" name="mail" id="mail" /></li>
+				<li><label for="password">请输入密码</label><input type="password" name="password" id="password" /></li>
+			</ul>
+			<button>确认提交</button>
+		</form>
+	</aside>
+	<!--第一篇文章-->
+	<article>
+		<header>
+			<h3>文章一级标题</h3>
+			<h4>文章副标题</h4>
+			<p>文章作者<time>文章发表时间</time></p>
+		</header>
+		<section>
+			<p>这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。</p>
+			<p>这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。</p>
+			<p>这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。</p>
+		</section>
+	</article>
+
+	<article>
+		<header>
+			<h3>文章一级标题</h3>
+			<h4>文章副标题</h4>
+			<p>文章作者<time>文章发表时间</time></p>
+		</header>
+		<section>
+			<p>这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。</p>
+			<p>这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。</p>
+			<p>这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。这是一个很长很长的段落，这是一个超级超级长的段落。</p>
+			<figure><img src="pic/nba.png" /></figure>
+		</section>
+	</article>
+
+	<section class="picture">
+		<header>
+			<h2>图片</h2>
+		</header>
+		<figure>
+			<img src="pic/nba.png" />
+			<img src="pic/nba.png" />
+		</figure>
+		<figure><img src="pic/nba.png" /></figure>
+	</section>
+
+	<footer>版权所有@iKnow</footer>
+
+</body>
+</html>
