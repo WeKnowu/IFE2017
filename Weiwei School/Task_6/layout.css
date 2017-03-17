@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*html & body*/
+html{
+	margin: 0 auto;
+}
+body{
+	width: 980px;
+	height: 1386px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0 44px 0 44px;
+}
+/*header*/
+#yemei{
+	position: relative;
+	height: 61px;
+	border-bottom: solid 2px #938e8c;
+}
+#logo{
+	width: 110px;
+	height: 61px;
+}
+#date{
+	height: 61px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*section1*/
+#sec1{
+	height: 584px;
+	position: relative;
+	margin-top: 34px;
+}
+#sec1 figure{
+	width: 641px;
+	height: 301px;
+	position: relative;
+}
+#sec1 #technology{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 203px;
+	height: 301px;
+	border-top: solid 2px #cc8091;
+}
+#sec1 article{
+	width: 641px;
+	position: absolute;
+	top: 342px;
+}
+.box{
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: text-top;
+}
+#box_What{
+	width: 227px;
+}
+#box_When{
+	width: 207px;
+}
+#box_How{
+	width: 133px;
+	margin-right: 0;
+}
+
+/*section2*/
+#sec2{
+	position: relative;
+	overflow: auto;
+
+}
+#left{
+	float: left;
+	width: 415px;
+	height: 640px;
+	margin-right: 19px;
+}
+#left header{
+	height: 154px;
+
+}
+#left article{
+	position: relative;
+	height: 431px;
+}
+#right{
+	float: right;
+	width: 458px;
+	height: 610px;
+}
+#right figure{
+	height: 275px;
+}
+#right div{
+	height: 318px;
+}
+
+/*footer*/
+footer{
+	width: 892px;
+	height: 59px;
+	border-top: solid 1px #938e8c;
+}
+footer div{
+	width: 110px;
+	height: 61px;
+	float: right;
+}
