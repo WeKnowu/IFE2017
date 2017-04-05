@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1280px;
+}
+
+/* 菜单栏 */
+header{
+	width: 1280px;
+	height: 57px;
+	position: relative;
+}
+header #logo{
+	margin-left: 60px;
+	height: 57px;
+	width: 300px;
+}
+header nav{
+    height: 57px;
+    position: absolute;
+    top:0;
+    left: 681px;
+}
+
+/* 各节相同css */
+.box{
+	width: 1280px;
+	position: relative;
+}
+
+/* 1 */
+#box1{
+	height: 692px;
+	background-image: url(images/1.png);
+}
+#box1 #zhezhao{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.2;
+	/*兼容IE8及以下版本浏览器*/
+    filter: alpha(opacity=20);
+}
+#box1 #begin{
+	position: absolute;
+	left: 126px;
+	top: 429px;
+	width: 331px;
+	height: 62px;
+}
+#box1 #time{
+	position: absolute;
+	left: 126px;
+	top: 230px;
+}
+
+/* 2 */
+#box2{
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#box2 div{
+	box-sizing: border-box;
+	
+}
+#box2 p{
+	text-align: center;
+}
+#box2 #n1, #n2, #n3, #n4{
+	height: 132px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#box2 #n5, #n6, #n7{
+	height: 51px;
+	border-right: solid;
+	border-color: rgb(180,180,180);
+	border-right-width: 2px;
+}
+#box2 #n8{
+	height: 51px;
+}
+#box2 #n1, #n5{
+	width: 318px;
+}
+#box2 #n2, #n6{
+	width: 330px;
+}
+#box2 #n3, #n7{
+	width: 312px;
+}
+#box2 #n4, #n8{
+	width: 300px;
+}
+
+/* 3 */
+#box3{
+	height: 360px;
+	position: relative;
+}
+#box3 img{
+	position: absolute;
+	left: 592px;
+	top: 95px;
+}
+#box3 p{
+	width: 1280px;
+	text-align: center;
+	position: absolute;
+	top: 230px;
+}
+/* 4 */
+#box4{
+	height: 341px;
+}
+
+/* 5 */
+#box5{
+	height: 604px;
+}
+
+/* 6 */
+#box6{
+	height: 566px;
+}
+
+/* 7 */
+#box7{
+	height: 521px;
+}
+
+/* 8 */
+#box8{
+	height: 749px;
+}
+
+/* 底部 */
+footer{
+	width: 1280px;
+	height: 416px;
+}

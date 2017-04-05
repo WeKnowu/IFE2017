@@ -1,0 +1,27 @@
+*{
+
+}
+
+body{
+
+}
+
+/* 菜单栏 */
+header{
+	background-color: rgb(255,255,255);
+}
+header #logo{
+	
+}
+header nav{
+
+}
+
+/* 1 */
+#box1 #begin{
+	background-color: rgb(231, 79, 77);
+}
+/* 3 */
+#box3{
+	background-color: rgb(237,237,237);
+}
